@@ -1,0 +1,477 @@
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="BBGO Game - Login &amp; Register | India’s No.1 Gaming Platform">
+    <meta name="description" content="BBGO Game is India’s top gaming platform where users can play trending games like Color Prediction, Casino, Lottery, and Sports, and win real money. Join BBGO Club today for secure gaming, fast withdrawals, and a fun gaming experience.">
+    <meta name="keywords" content="BBGO Game, BBGO Club, BBGO Register, BBGO Login, BBGO App Download, BBGO Lottery, Color Prediction Game, Real Money Games, Casino Games, Sports Betting, Online Lottery, Play and Earn Money, Best Gaming App in India">
+    <meta name="author" content="BBGO Game">
+    <meta name="robots" content="index, follow">
+    <meta name="og:title" content="BBGO Game - Play &amp; Earn Real Money | India’s No.1 Gaming Platform">
+    <meta name="og:description" content="Join BBGO Game, India’s leading gaming platform offering exciting games like Color Prediction, Casino, Lottery, and Sports Betting. Win real money securely with BBGO Club.">
+    <meta name="og:url" content="https://www.bbgo01.online">
+    <meta name="og:type" content="website">
+    <meta name="og:image" content="https://www.bbgo01.com/assets/images/bbgo-logo.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="BBGO Game - Play &amp; Earn Real Money">
+    <meta name="twitter:description" content="Play trending games on BBGO Club, including Lottery, Casino, and Sports, and win real money. Join today for a secure and fun gaming experience.">
+    <!-- Title Tag -->
+    <title>BBGO Game - Login &amp; Register | India’s No.1 Gaming Platform</title>
+    <!-- Favicon -->
+    <link rel="icon" href="https://www.bbgo01.online/assets/images/favicon.ico" type="image/x-icon">
+
+  <style>
+    /* General Body Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f9;
+  color: #333;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Ensuring all elements follow box-sizing border-box */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* Header Section */
+.header {
+background: orange;
+  padding: 8px 10px; /* कम ऊंचाई के लिए पैडिंग घटाई */
+  text-align: center;
+  color: white;
+  border-bottom: 2px solid #e64a19; /* बॉर्डर को हल्का किया */
+}
+
+.header img {
+  width: 220px; /* लोगो का साइज थोड़ा छोटा किया */
+  display: inline-block; /* हैडर के साइज में फिट होगा */
+  background: rgba(255, 255, 255, 0.8); /* हल्का सफेद बैकग्राउंड */
+  padding: 10px; /* लोगो के चारों ओर हल्का स्पेस */
+  border-radius: 5px; /* हल्के गोल कोने */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* हल्का शैडो */
+  border: 1px solid white; /* सफेद बॉर्डर */
+  transition: transform 0.3s ease; /* एनिमेशन */
+}
+
+.header img:hover {
+  transform: scale(1.05); /* हल्का ज़ूम इफेक्ट */
+}
+
+/* Button Styles */
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+.buttons button {
+  background-color: #ff5722;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.buttons button:hover {
+  background-color: #e64a19;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Image Section */
+.image-section {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.image-section img {
+  width: 100%;
+  max-width: 900px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.image-section img:hover {
+  transform: scale(1.05);
+}
+
+/* Table Section */
+.table-section {
+  margin: 30px auto;
+  width: 90%;
+  max-width: 900px;
+  border-collapse: collapse;
+}
+
+.table-section table {
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.table-section th,
+.table-section td {
+  padding: 15px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.table-section th {
+  background-color: #ff5722;
+  color: white;
+  font-weight: bold;
+}
+
+.table-section td {
+  background-color: #f9f9f9;
+}
+
+.table-section td a {
+  color: #ff5722;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.table-section td a:hover {
+  color: #e64a19;
+}
+
+
+/* Footer Section */
+.footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 5px;
+}
+
+.footer a {
+  color: #ff5722;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+/* General Styling for all HTML elements */
+/* CSS Variables for Customization */
+:root {
+  --heading-font-family: 'Poppins', sans-serif;
+  --heading-color: #222;
+  --heading-gradient: linear-gradient(90deg, #ff7e5f, #feb47b);
+  --heading-shadow-color: rgba(0, 0, 0, 0.1);
+  --heading-line-height: 1.3;
+  --heading-margin-bottom: 0.75rem;
+  --heading-letter-spacing: 0.03em;
+  --responsive-breakpoint: 768px;
+}
+
+/* Universal Heading Styles */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 var(--heading-margin-bottom) 0;
+  padding: 0;
+  font-family: var(--heading-font-family);
+  line-height: var(--heading-line-height);
+  letter-spacing: var(--heading-letter-spacing);
+  text-transform: capitalize; /* Optional: Makes the first letter capital */
+  color: var(--heading-color);
+  text-shadow: 1px 1px 2px var(--heading-shadow-color);
+  transition: transform 0.2s ease, color 0.3s ease;
+}
+/* Content Section */
+.content-section {
+  margin: 40px auto;
+  width: 90%;
+  max-width: 900px;
+  text-align: justify;
+  line-height: 1.8; /* बेहतर readability */
+  color: #333;
+  background-color: #ffffff; /* हल्का background */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border-radius: 8px; /* Rounded corners */
+  padding: 20px; /* Inner padding */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.content-section:hover {
+  transform: translateY(-5px); /* हल्का uplift effect */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Headings */
+.content-section h2 {
+  color: #ff5722;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-transform: uppercase; /* Heading को bold लुक देने के लिए */
+  letter-spacing: 0.05em;
+  border-bottom: 2px solid #ff5722; /* Underline effect */
+  display: inline-block; /* Only underline text */
+  padding-bottom: 5px;
+}
+
+/* Paragraphs */
+.content-section p {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 20px;
+  line-height: 1.8;
+}
+
+/* Lists */
+.content-section ul,
+.content-section ol {
+  margin: 20px 0;
+  padding-left: 0; /* Padding हटाएं */
+  list-style: none; /* Default list bullets/numbers हटाएं */
+}
+
+/* List Items Styling */
+.content-section ul li,
+.content-section ol li {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  color: #444;
+  position: relative; /* Custom bullets या numbers के लिए */
+  padding-left: 30px; /* Text को सही position देने के लिए */
+}
+
+/* Custom Bullet for Unordered List */
+.content-section ul li::before {
+  content: "•"; /* Custom bullet */
+  color: #ff5722;
+  font-weight: bold;
+  position: absolute;
+  left: 0; /* Bullet position */
+}
+
+/* Custom Numbering for Ordered List */
+.content-section ol li {
+  counter-increment: item; /* Custom numbering के लिए counter */
+}
+
+.content-section ol li::before {
+  content: counter(item) ". "; /* Custom number */
+  color: #ff5722;
+  font-weight: bold;
+  position: absolute;
+  left: 0; /* Number position */
+}
+
+/* Blockquotes */
+.content-section blockquote {
+  font-size: 1.1rem;
+  color: #555;
+  border-left: 4px solid #ff5722;
+  padding-left: 20px;
+  margin: 20px 0;
+  font-style: italic;
+  background: #f9f9f9; /* हल्का background effect */
+  border-radius: 4px;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05); /* Inner shadow effect */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .content-section {
+    padding: 15px;
+    margin: 20px auto;
+  }
+
+  .content-section h2 {
+    font-size: 1.8rem;
+  }
+
+  .content-section p,
+  .content-section ul li,
+  .content-section ol li,
+  .content-section blockquote {
+    font-size: 1rem;
+  }
+}
+
+/* Specific Font Sizes */
+h1 {
+  font-size: 2.8rem;
+  background: var(--heading-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h2 {
+  font-size: 2.4rem;
+  color: #444;
+}
+
+h3 {
+  font-size: 2rem;
+  color: #555;
+}
+
+h4 {
+  font-size: 1.6rem;
+  color: #666;
+}
+
+h5 {
+  font-size: 1.4rem;
+  color: #777;
+}
+
+h6 {
+  font-size: 1.2rem;
+  color: #888;
+}
+
+/* Add Hover Effects */
+h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover {
+  transform: translateY(-2px);
+  color: #007acc; /* Optional hover color */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: var(--responsive-breakpoint)) {
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.8rem;
+  }
+
+  h4 {
+    font-size: 1.4rem;
+  }
+
+  h5 {
+    font-size: 1.2rem;
+  }
+
+  h6 {
+    font-size: 1rem;
+  }
+}
+
+/* Optional: Border and Spacing Style */
+h1, h2, h3, h4, h5, h6 {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+  padding-bottom: 0.25rem;
+}
+
+
+p, li, blockquote {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+a {
+  color: #ff5722;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  color: #e64a19;
+  text-decoration: underline;
+}
+
+ul, ol {
+  padding-left: 20px;
+  margin: 0;
+}
+
+ul li, ol li {
+  margin-bottom: 10px;
+}
+
+/* Remove unwanted space */
+br {
+  display: ;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .buttons {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .image-section img {
+    width: 100%;
+  }
+
+  .content-section {
+    width: 100%;
+    padding: 0 15px;
+  }
+
+  .table-section {
+    width: 100%;
+    margin: 20px auto;
+  }
+
+  .table-section th,
+  .table-section td {
+    font-size: 0.9rem;
+  }
+}
+
+  </style>
+
+
+
+  <!-- Header Section -->
+  <div class="header">
+    <img src="https://image.fastpay09.com/bbgo/other/h5setting_20241211175827b8gx.png" alt="BBGO Logo">
+  </div>
+
+  <div class="content-section">
+<div style="text-align: justify;">BBGO Login, BBGO Invite Code , BBGO Register, BBGO01 Login, BBGO App Download, BBGO Lottery, Color Prediction Game, Real Money Games, Casino Games, Sports Betting, Online Lottery, Play and Earn Money, Best Gaming App in India.</div>
+    </div>
+  <!-- Buttons Section -->
+  <div class="buttons">
+    <button onclick="location.href='https://bbgo01.vip/#/login'">Login</button>
+    <button onclick="location.href='https://bbgo02.vip/#/register?invitationCode=181531002597'">Register</button>
+  </div>
+<h1 style="text-align: center;">About BBGO Game&nbsp;</h1><div style="text-align: justify;">Welcome to <b>BBGO Game</b>, India's premier gaming platform where entertainment meets real-money earning opportunities. At BBGO, we pride ourselves on providing a secure, diverse, and exciting gaming experience to millions of users across the country.&nbsp;&nbsp;</div><div style="text-align: justify;"><br>
+</div><div style="text-align: justify;">Founded with the vision of revolutionizing online gaming in India, BBGO Game offers an unparalleled variety of games, including:&nbsp;&nbsp;</div><div style="text-align: justify;"><br>
+</div><div style="text-align: justify;"><ul><li>Color Prediction Games</li></ul><ul><li>Lottery Games</li></ul><ul><li>Casino Games</li></ul><ul><li>Sports Betting</li></ul><ul><li>Slots and Sportsbook Games</li></ul></div><div style="text-align: justify;"><br>
+</div><div style="text-align: justify;">Our platform is built on the principles of trust, security, and user satisfaction, ensuring that every player enjoys a seamless and safe gaming experience.&nbsp;&nbsp;</div><div style="text-align: justify;"><br>
+</div><h2 style="text-align: center;">Why Choose BBGO Game?&nbsp;&nbsp;</h2><div style="text-align: center;"><br>
+</div><div style="text-align: justify;"><ol><li>Diverse Gaming Options:&nbsp; Explore 30+ games, including strategy, skill-based, and luck-based games.&nbsp;&nbsp;</li><li>Earn Real Money: Play trending games and withdraw your earnings directly to your bank account.&nbsp;&nbsp;</li><li>100% Secure Platform: Our platform is built with top-notch security to protect user data and transactions.&nbsp;&nbsp;</li><li>Easy Accessibility: The BBGO App makes it effortless to play your favorite games anytime, anywhere.&nbsp;&nbsp;</li></ol></div><div style="text-align: justify;"><br>
+</div><h2 style="text-align: justify;">Our Mission&nbsp;&nbsp;</h2><div style="text-align: justify;"><br>
+</div><div style="text-align: justify;">To create a fun, engaging, and rewarding environment where players can enjoy games and earn money responsibly. BBGO Game is committed to staying at the forefront of the gaming industry by offering innovative features, top-quality service, and a wide variety of games.&nbsp;&nbsp;</div><div style="text-align: justify;"><br>
+</div><h2 style="text-align: justify;">Our Vision&nbsp;&nbsp;</h2><div style="text-align: justify;"><br>
+</div><div style="text-align: justify;">We envision a future where BBGO Game becomes synonymous with trustworthy and entertaining gaming experiences. By focusing on safety, variety, and rewards, we aim to redefine online gaming for millions of players.&nbsp;&nbsp;</div><div style="text-align: justify;"><br>
+</div><h2 style="text-align: justify;">Join Us Today!&nbsp;&nbsp;</h2><div style="text-align: justify;"><br>
+</div><div style="text-align: justify;">Become part of the BBGO community and experience the best in online gaming. Whether you're a fan of strategy games, lotteries, or casino thrills, BBGO Game has something for everyone.&nbsp;&nbsp;</div><div style="text-align: justify;"><br>
+</div><div style="text-align: justify;">Discover the joy of gaming and winning with <b>BBGO Game – India’s No. 1 Gaming Platform!</b></div>
+
+  <!-- Footer Section -->
+  <div class="footer">
+    © 2024 BBGO Game Lottery. All Rights Reserved.
+  </div>
+
